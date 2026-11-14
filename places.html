@@ -1,0 +1,50 @@
+<!-- Name: Alishba Niaz | Roll No.: 26i-3223 | Section: E -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EDINBURGH - Places to Visit</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- Navigation Bar -->
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="places.html">Places to Visit</a> |
+            <a href="tips.html">Food & Travel Tips</a>
+        </nav>
+
+        <h1>Places to Visit in Edinburgh</h1>
+
+        <div class="place-card">
+            <h2>1. Edinburgh Castle</h2>
+            <p>Perched on Castle Rock, this historic fortress dominates the skyline of Edinburgh. Home to the Scottish Crown Jewels and the Stone of Destiny, it offers breathtaking panoramic views of the city.</p>
+            <button onclick="showTip('castle')">Visitor Tip</button>
+        </div>
+
+        <div class="place-card">
+            <h2>2. Dean Village</h2>
+            <p>A peaceful, picturesque oasis located just a 15-minute walk from Princes Street. Once a thriving grain-milling village along the Water of Leith, it is famous for its cobblestone streets and 19th-century architecture.</p>
+            <button onclick="showTip('dean')">Visitor Tip</button>
+        </div>
+
+        <div class="place-card">
+            <h2>3. The Meadows in Bruntsfield</h2>
+            <p>A large, vibrant public park just south of the city centre. It is the favorite local spot for sunny afternoon picnics, cherry blossom walks in spring, and outdoor games.</p>
+            <button onclick="showTip('meadows')">Visitor Tip</button>
+        </div>
+
+        <script>
+            function showTip(place) {
+                if (place === 'castle') {
+                    window.alert("Castle Tip: Book your tickets online in advance—they often sell out on the day, especially on Fridays and weekends!");
+                } else if (place === 'dean') {
+                    window.alert("Dean Village Tip: Walk along the Water of Leith Walkway from Dean Village all the way to Stockbridge for a scenic morning stroll.");
+                } else if (place === 'meadows') {
+                    window.alert("Meadows Tip: Grab a coffee and pastry from a nearby Bruntsfield café before heading to the park.");
+                }
+            }
+        </script>
+    </body>
+</html>
