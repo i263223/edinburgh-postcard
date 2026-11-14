@@ -1,0 +1,56 @@
+/*-- Name: Alishba Niaz | Roll No.: 26i-3223 | Section: E */
+
+
+body {
+  background-color: rgb(244, 225, 188);
+  font-family: "Bodoni MT", "Bodoni 72", Didot, serif;
+  color: rgb(57, 57, 53);
+  text-align: center;
+  font-size: 20px;
+}
+
+h1 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: rgb(49, 49, 44);
+  text-align: center;
+  font-size: 25px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+td {
+  text-align: center;
+  background-color: #faf0dc
+}
+
+th {
+  background-color: #373a2d;
+  color: rgb(190, 191, 184);
+}
+
+table, th, td {
+  border: 1px solid rgb(49, 49, 44);
+}
+
+th, td {
+  padding: 10px;
+}
+
+table {
+  margin: auto;
+}
+
+button {
+  background-color: #373a2d;
+  color: rgb(190, 191, 184);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-family: "Bodoni MT", "Bodoni 72", Didot, serif;
+  font-size: 20px;
+}
