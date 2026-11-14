@@ -10,4 +10,4 @@ Pages:
 
 AI Tool Used: Gemini
 
-Live Website: https://i263223.github.io/edinburgh-postcard/index.html
+Live Website: https://i263223.github.io/edinburgh-postcard/
