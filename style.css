@@ -107,3 +107,13 @@ h2 {
   border-radius: 5px;
   cursor: pointer;
 }
+.gallery-block img {
+  display: inline-block;
+  width: 45%;
+  height: 220px;        /* Forces all images to the exact same height */
+  object-fit: cover;    /* Crops edges cleanly instead of stretching/squishing */
+  margin: 10px;
+  border: 2px solid #373a2d;
+  border-radius: 5px;
+  cursor: pointer;
+}
