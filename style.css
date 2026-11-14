@@ -89,3 +89,21 @@ h2 {
   font-size: 22px;
   margin-top: 0;
 }
+/* Gallery Block */
+.gallery-block {
+  background-color: #faf0dc;
+  border: 1px solid rgb(49, 49, 44);
+  width: 70%;
+  margin: 25px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.gallery-block img {
+  display: inline-block;
+  width: 45%;
+  margin: 10px;
+  border: 2px solid #373a2d;
+  border-radius: 5px;
+  cursor: pointer;
+}
